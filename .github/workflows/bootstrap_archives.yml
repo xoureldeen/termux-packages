@@ -17,7 +17,7 @@ jobs:
           - arm
           - i686
           - x86_64
-    if: github.repository == 'termux/termux-packages'
+    if: github.repository == 'epicstudios856/termux-packages'
     steps:
       - name: Git clone
         uses: actions/checkout@v4
